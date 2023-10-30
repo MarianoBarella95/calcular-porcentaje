@@ -35,7 +35,7 @@ form {
 
 .title {
     color: #610C9F;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -72,12 +72,16 @@ label {
 
 #numero1, #numero2 {
     padding: 11px 10px;
-    font-size: 0.75rem;
+    font-size: 1rem;
     border: 2px #610C9F solid;
     border-radius: 5px;
     width: 30%;
     height: 3rem;
     outline: none;
+}
+
+#resultado {
+    font-size: 1.5rem;
 }
 
 .btn-container {
@@ -89,8 +93,8 @@ label {
 }
 .btn {
     font-family: 'Ubuntu', sans-serif;
-    width: 20%;
-    height: 2rem;
+    width: 30%;
+    height: 3rem;
     border: none;
     color: white;
     background: rgb(243,159,90);
@@ -103,7 +107,7 @@ label {
 
 @media (max-width: 768px) {
     .btn {
-        width: 80%;
+        width: 100%;
     }
 
     label {
@@ -111,6 +115,7 @@ label {
     }
 
     #numero1, #numero2 {
-        width: 80%;     
+        width: 100%; 
+        height: 4rem;    
     }
 }
