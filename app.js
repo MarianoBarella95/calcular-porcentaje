@@ -13,7 +13,7 @@ btnCalcular.addEventListener('click', () => {
     else if (num1.valueAsNumber < 0 || num2.valueAsNumber < 0) {
         resultado.innerHTML = 'Ingrese un número positivo (Mayor a 0).';
     } else {
-        resultado.innerHTML = `El ${num1.valueAsNumber}% de ${num2.valueAsNumber} es ${multiplicar / 100}.`;
+        resultado.innerHTML = `El ${num1.valueAsNumber}% de ${num2.valueAsNumber} es ${multiplicar / 100}`;
     }
 
 
