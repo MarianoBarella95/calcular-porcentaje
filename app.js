@@ -21,7 +21,7 @@ btnCalcular.addEventListener('click', () => {
 
 
 btnReset.addEventListener('click', () => {
-    num1.innerHTML = '';
-    num2.innerHTML = '';
+    num1.value = '';
+    num2.value = '';
     resultado.innerHTML = '';
 })
